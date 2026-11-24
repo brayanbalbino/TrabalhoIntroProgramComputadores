@@ -47,6 +47,9 @@ Etapas
 Funções utilizadas
 
 • printf(): exibe texto e valores na tela. Usa %d (inteiro), %f (decimal), %.1f (decimal com 1 casa) e %s (texto).
+
 • scanf(): lê o que o usuário digita. O & indica o endereço da variável onde o valor será guardado (não é usado no nome, que já é um vetor).
+
 • " %49[^\n]": lê o nome completo, com espaços, até o Enter. O espaço inicial descarta o Enter anterior e o 49 limita o tamanho.
+
 • main(): função principal, onde o programa começa. O return 0; indica que terminou sem erros.
