@@ -22,9 +22,13 @@ Explicação do código
 Variáveis
 
 • turma: quantidade de alunos. i: contador dos laços.
+
 • alunos[100][50]: vetor de nomes (até 100 alunos, 49 letras cada).
+
 • n1[], n2[], md[]: vetores com as duas notas e a média de cada aluno. A posição i pertence sempre ao mesmo aluno.
+
 • soma: acumula as médias. medTurma: média geral da turma.
+
 • destaque: posição do aluno com a maior média.
 
 Etapas
