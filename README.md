@@ -25,7 +25,7 @@ Variáveis:
   •	destaque: posição do aluno com a maior média.
 Etapas:
 1.	Quantidade de alunos: o scanf lê turma. O while repete a pergunta enquanto o valor for menor que 1 ou maior que 100, para não ultrapassar o tamanho dos vetores.
-2.	Registro dos dados: o for roda uma vez por aluno, de 0 até turma - 1. Em cada volta lê o nome e as duas notas. Cada nota passa por um while que só aceita valores de 0 a 10 (padrão brasileiro).
+2.	Registro dos dados: o for roda uma vez por aluno, de 0 até turma - 1. Em cada volta lê o nome e as duas notas. Cada nota passa por um while que só aceita valores de 0 a 10.
 3.	Média do aluno: md[i] = (n1[i] + n2[i]) / 2. Em seguida, soma = soma + md[i] acumula as médias para a média geral.
 4.	Classificação: if / else if / else dentro do segundo for: 
     o	média maior ou igual a 6,0: Aprovado
